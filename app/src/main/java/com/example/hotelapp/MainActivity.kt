@@ -33,7 +33,7 @@ public class MainActivity : AppCompatActivity() {
         btnSignIn = findViewById(R.id.btnSignIn)
         btnRegister = findViewById(R.id.btnRegister)
 
-        btnRegister.setOnClickListener {
+        binding.btnRegister.setOnClickListener {
            val intent = Intent(this,RegistrActivity::class.java)
             startActivity(intent)
         }
