@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HotelApp</string>
+    <string name="registration">Hotel</string>
+    <string name="text_bottom">log in to your account </string>
+    <string name="btnSignIn">SignIn </string>
+    <string name="btnRegister">Register </string>
+    <string name="btnSave">Save </string>
+    <string name="reg_bottom">Create your account </string>
+</resources>
