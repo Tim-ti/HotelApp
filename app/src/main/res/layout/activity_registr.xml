@@ -46,22 +46,6 @@
             app:met_singleLineEllipsis="true"
             />
 
-        <com.rengwuxian.materialedittext.MaterialEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/repeatField"
-            android:hint="Repeat Password"
-            android:inputType="textPassword"
-            android:text=""
-            android:textColor="@color/design_default_color_primary"
-            android:textColorHint="@color/design_default_color_primary_dark"
-            android:textSize="20dp"
-            app:met_floatingLabel="highlight"
-            app:met_baseColor="#0056d3"
-            app:met_primaryColor="#982360"
-            app:met_singleLineEllipsis="true"
-            />
-
     </LinearLayout>
     <TextView
         android:id="@+id/text_bottom"
@@ -76,7 +60,7 @@
         />
     <LinearLayout
         android:layout_width="match_parent"
-        android:weightSum="1"
+        android:weightSum="2"
         android:layout_above="@id/text_bottom"
         android:layout_margin="15dp"
         android:layout_height="wrap_content"
@@ -85,12 +69,20 @@
 
 
         <Button
-            android:id="@+id/save"
+            android:id="@+id/btnRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="6dp"
             android:layout_weight="1"
             android:text="@string/btnSave" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:text="@string/btnSignIn" />
 
 
     </LinearLayout>
