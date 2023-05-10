@@ -11,6 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HotelApp">
         <activity
+            android:name=".SignInActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".RegistrActivity"
             android:exported="false">
             <meta-data
